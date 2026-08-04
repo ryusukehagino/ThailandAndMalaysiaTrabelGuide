@@ -5,10 +5,10 @@ import 'aos/dist/aos.css';
  * aos.js初期化
  */
 const initAOS = () => {
-    const breakpoint = 768;
+    // const breakpoint = 768;
 
     AOS.init({
-        offset: window.innerWidth < breakpoint ? 100 : 350, //SP : PC
+        // offset: window.innerWidth < breakpoint ? 100 : 350, //SP : PC
         once: true,
         duration: 1000,
     });
